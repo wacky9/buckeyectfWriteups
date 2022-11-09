@@ -63,4 +63,10 @@ Immediately we can see that we are going to have some troubles here, so we emplo
 
 Assumption Three: $ys_2 + ys_0 * 3 - ys_1 * 3 < p $
 
+On its surface, Assumption Three looks as if it could be untrue (or at least difficult to ensure). But remember that by Assumption Two, we get $ys_0 - ys_1 <0 $.  Applying that here makes it clear that the actual assumption being made is that $ys_2 < p$
+
+Simplifying and substituting we get $m = ys_2 + ys_0 * 3 - ys_1 * 3$ Rearrange to get the final equation:
+
+$\frac{m-ys_2 + ys_1 * 3}{3} = ys_0$
+
 # My Process
