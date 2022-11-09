@@ -13,8 +13,10 @@ My final solution involved targeting solely the decryption part of the algorithm
 Right away the first trick is determining what product is for each loop. I solved this lazily, simply adding a print statement and running the code several times.
 The result I discovered is as follows:
 $product_0 = 3$
-$product_1 = p$
-$product_2 = p$
+
+$product_1 = p-3$
+
+$product_2 = 1$
 
 
 #My Process
