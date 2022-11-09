@@ -69,4 +69,8 @@ Simplifying and substituting we get $m = ys_2 + ys_0 * 3 - ys_1 * 3$ Rearrange t
 
 $\frac{m-ys_2 + ys_1 * 3}{3} = ys_0$
 
+Now make an important note here: 
+
+The assumptions made here are **insufficient** for all the possible formulations. If $ys_2 > p $, for example, we would find that our formula doesn't work. If $ys_1$ is too large, $ys_3$ will need to be a **negative** number, forbidden by the scope of the problem. Therefore the script needs to be run several times until a correct result can be derived. 
+
 # My Process
