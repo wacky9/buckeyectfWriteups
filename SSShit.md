@@ -21,13 +21,13 @@ $product_2 = 1$
 
 This eliminates the inner loop from analysis. Then I constructed a series of equations based on the outer loop
 
-$y{\_}int_0 = (ys_0 * product_0)%p$
+$intercept_0 = (ys_0 * product_0)%p$
 
-$y{\_}int_1 = (ys_1 * product_1 + y{\_}int_0)%p$
+$intercept_1 = (ys_1 * product_1 + intercept_0)%p$
 
-$y{\_}int_2 = (ys_2 * product_2 + y{\_}int_1)%p$
+$intercept_2 = (ys_2 * product_2 + intercept_1)%p$
 
-$m = y{\_}int_2$
+$m = intercept_2$
 
 Because $ys_0 = your{\_}input$, we can choose $ys_0$ to be whatever we want it to be. In addition, we know every variable here except for p. Thus the goal is to find a pathway from $ys_0$ to m without p actually mattering. Since p only exists as %p, we can construct a narrow set of assumptions to exclude p from having any real effect.
 
