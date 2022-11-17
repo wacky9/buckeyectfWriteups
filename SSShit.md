@@ -45,7 +45,7 @@ $(ys_1 * p)%p = 0 and (ys_0 * 3) % p = ys_0 * 3$ (based on Assumption 1) so we g
 
 $intercept_1 = (0 + (-ys_1 * 3)%p + ys_0 * 3 )%p
 
-Now that middle statement looks like it could give us trouble, but in fact there is a useful trick around it. Some of you may be wondering why $a % b$ is being used and not $a \mod b$. The answer is that Python's % operator is not exactly the same as the mathematical modulus. In fact, in this specific instance, it is quite different. When $|a| < b$ and $a<0$, $a \mod b = b + a$ in Python world. Therefore we end up with: 
+Now that middle statement looks like it could give us trouble, but in fact there is a useful trick around it. Some of you may be wondering why $a%b$ is being used and not $a \mod b$. The answer is that Python's % operator is not exactly the same as the mathematical modulus. In fact, in this specific instance, it is quite different. When $|a| < b$ and $a<0$, $a%b = b + a$ in Python world. Therefore we end up with: 
 
 $intercept_1 = (p - ys_1 * 3 + ys_0 * 3 )%p$
 
