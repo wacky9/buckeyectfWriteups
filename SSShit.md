@@ -49,7 +49,7 @@ Now that middle statement looks like it could give us trouble, but in fact there
 
 $intercept_1 = (p - ys_1 * 3 + ys_0 * 3 )%p$
 
-Group together $ys_1 * 3 + ys_0 * 3$. We can see that if this statement is negative, the % p operation will be meaningless. That leads us to:
+Group together $-ys_1 * 3 + ys_0 * 3$. We can see that if this statement is negative, the % p operation will be meaningless. That leads us to:
 
 Assumption Two: $ys_1 > ys_0$
 
